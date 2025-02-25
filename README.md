@@ -11,7 +11,7 @@ This project implements a Binary Phase Shift Keying (BPSK) communication system 
 6. **Demodulation & Decoding**  
 7. **Reconstruction of the Audio Signal**  
 
-All figures are stored in the `plots` folder.
+All figures are stored in the `Plots` folder.
 
 ---
 
@@ -47,7 +47,7 @@ All figures are stored in the `plots` folder.
 - The **rectangular and raised cosine modulated signals** are stored.  
 
 #### Modulation Plots:
-![Modulation](plots/Modulation.png)
+![Modulation](Plots/Modulation.png)
 
 ---
 
@@ -56,7 +56,7 @@ All figures are stored in the `plots` folder.
 - The received signals (without memory effects) are stored.
 
 #### Memoryless Channel:
-![Memoryless Channel](plots/Memoryless_Channel.png)
+![Memoryless Channel](Plots/Memoryless_Channel.png)
 
 ---
 
@@ -64,7 +64,7 @@ All figures are stored in the `plots` folder.
 - Input and output constellation diagrams show the signal degradation.
 
 #### Constellation Diagram:
-![Constellation Diagram](plots/constellation_plot.png)
+![Constellation Diagram](Plots/constellation_plot.png)
 
 ---
 
@@ -73,7 +73,7 @@ All figures are stored in the `plots` folder.
 - A **low-pass filter (Kaiser window)** extracts the baseband signal.
 
 #### Mixed and Filtered Signals:
-![Mixed and Filtered Signals](plots/Mix_and_Filter.png)
+![Mixed and Filtered Signals](Plots/Mix_and_Filter.png)
 
 ---
 
@@ -81,7 +81,7 @@ All figures are stored in the `plots` folder.
 - The **BPSK signal is reconstructed** and sampled.
 
 #### Sampled Line Decoded Signals:
-![Line Decoded](plots/Line_Decoded.png)
+![Line Decoded](Plots/Line_Decoded.png)
 
 ---
 
@@ -90,7 +90,7 @@ All figures are stored in the `plots` folder.
 - The received binary sequence is **converted back to an audio signal**.
 
 #### Reconstructed vs. Original Audio Signal:
-![Reconstructed Audio](plots/Reconstructed.png)
+![Reconstructed Audio](Plots/Reconstructed.png)
 
 ---
 
